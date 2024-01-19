@@ -37,7 +37,7 @@ tap_install:
         catalog:
           locations:
           - type: url
-            target: http://github.com/tfynes-pivotal/tapblankcatalog/blob/main/catalog-info.yaml
+            target: https://github.com/tfynes-pivotal/tapblankcatalog/blob/main/catalog-info.yaml
     metadata_store:
       ns_for_export_app_cert: '*'
       app_service_type: ClusterIP
