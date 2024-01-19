@@ -7,6 +7,10 @@ metadata:
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     app.kubernetes.io/part-of: tdemo18native
 spec:
+  params:
+  - name: annotations
+    value:
+      autoscaling.knative.dev/minScale: "10"
   build:
     env:
     - name: BP_JVM_VERSION
