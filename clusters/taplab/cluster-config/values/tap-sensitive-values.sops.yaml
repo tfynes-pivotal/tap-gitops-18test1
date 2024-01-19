@@ -9,7 +9,7 @@ tap_install:
             app_config:
                 auth:
                     allowGuestAccess: ENC[AES256_GCM,data:j29JiA==,iv:itlwTEbsmNqhwQ5zBGUP0eZOpm64xvsNf/7XB0hiVyE=,tag:Mlfb0wl+kf5rgZiVnifZ7A==,type:bool]
-                    environment: ENC[AES256_GCM,data:D9BrMHPHBlCDqow=,iv:yhuFEQxKEM2cvaekHi2THQ6a6DfPykDywZT0Dx6+l+0=,tag:fW8viBXLSC9X8CpHqhnBtA==,type:str]
+                    #ENC[AES256_GCM,data:4QUnY3JwQjfIMUH6AothOlHMsKGMp5Gvnw==,iv:j1jatMOqjdUhmp63tEnCvOBNmiQkD0DetaB3PBSW81M=,tag:s0ojrLTvUvsCrboHuHG40Q==,type:comment]
                     #ENC[AES256_GCM,data:nMVhz6WytyiV4eI=,iv:CXUGNEM4MC+e8yoxFn5PASYWM6D04oSg45xdYni8gtw=,tag:bsD7k8ya40muzcK/smbrmw==,type:comment]
                     #ENC[AES256_GCM,data:xLBfMT7huQVGSZa6,iv:17nU9DibgINTmtFczkSHitgDbeJLl6KBsFL0Xr16Cmk=,tag:9mZSBwsKFDOVyc/LX7xf1g==,type:comment]
                     #ENC[AES256_GCM,data:PSMtd3NIsNBQPUIe2nb0JktpjM5f,iv:iT72BDqp3Jm9VjGPoX5ZLLam4Q3HNiP7NyK4leTbhrY=,tag:tyNBzpqaVsokdH1jyNx3LA==,type:comment]
@@ -34,8 +34,8 @@ sops:
             LzdaTXRTUWJoV2NLUmhlVHJ6Y0dZVXcKP4ItqvX6Y92O5koajJ8Tb721ASdOKtWD
             dYdEFGRl5TitLqs6ZZRsG+fzWL2T2CflsMKHPjzlM/9i4CwBOGEJGQ==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2024-01-19T21:04:31Z"
-    mac: ENC[AES256_GCM,data:5K+bA2WWufnb5xHjlBrHLIMwbji4ea2BnQz8VZoOSGo9RoL7J2iEBTxSETATIz9RoWSvnWkLBhFoKw/F6NLoG0RkO2XbI34Oq1pm7EBvQJH+ic8290WZCsEQ+xVKvaAEAZ2nejdoMej138qyrBj6xfwZH+k8tA0sREDfAx3Nii4=,iv:ZuEQfHsfFCLrfssk4eqWl+IH7V/LizT7KstuRC1heBw=,tag:2jQeqXOavcAgr30lapcrXg==,type:str]
+    lastmodified: "2024-01-19T21:08:14Z"
+    mac: ENC[AES256_GCM,data:+LPsRi2Y19ZeC32Z6EaA+bFMal6ipBTaiPHgqO/W8wh/voLgfBToKYFsGFZhupxsGSn9XFkoabGkA2Srkbczn1nytkh6IXJEvuMkpXuR81OPsbf+bfoTH+yLcGt62nnxz5fhVLtYKzxlCdRdIQoHs+HB0VZa4Hc9icTp/cETaIA=,iv:xChC65Xoi2TR1p9Td4xk6MN7PQ+YsSjuWGZblBzZGRU=,tag:UC8jywrAJsvSnFO0a0K94Q==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
